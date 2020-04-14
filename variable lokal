@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int examplefunction() {
+	int a = 20;
+	return a;
+}
+
+int examplefunction2 () {
+	int b = 30;
+	return b;
+}
+
+int main () {
+	int a = 10;
+	cout << " ini adalah variable lokal dari fungsi utama " << a << endl;
+	cout << " ini adalah variable lokal dari fungsi examplefunction " << examplefunction;
+	cout << endl;
+	int b = 15;
+	cout << " ini adalah variable lokal dari fungsi kedua " << b << endl;
+	cout << " ini adalah variable lokal dari fungsi examplefunction " << examplefunction2;
+	cout << endl;
+}
