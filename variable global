@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int a = 95;
+
+int examplefunction () {
+	int a = 60;
+	return a;
+}
+
+ int b = 85;
+ 
+ int examplefunction2 (){
+ 	int b = 40;
+ 	return b;
+ }
+ 
+ int c = 75;
+ 
+ int examplefunction3 () {
+ 	int c = 30;
+ 	return c;
+ }
+ 
+ int main () 
+ {
+ 	cout << " ini adalah variable global 1 " << a << endl;
+ 	cout << " ini adalah variable global dari examplefunction " << examplefunction();
+ 	cout << endl;
+ 	
+ 	cout << " ini adalah variable global 2 " << b << endl;
+ 	cout << " ini adalah variable global dari examplefunction2 " << examplefunction2();
+ 	cout << endl;
+ 	
+ 	cout << " ini adalah variable global 3 " << c << endl;
+ 	cout << " ini adalah variable global dari examplefunction3 " << examplefunction3();
+ 	cout << endl;
+ }
